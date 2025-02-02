@@ -8,6 +8,7 @@ body{
 }
 ul{
     list-style-type: none;
+    transform: scale(100%);
 }
 a{
     text-decoration: none;
@@ -296,6 +297,8 @@ section{
     .product-container{
         display: flex;
         flex-direction: column;
+
+        /* asdfg */
     }
     .image-section{
         display: grid;
