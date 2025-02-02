@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #F0F2F4;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* === TOP NAVBAR ITEMS === */
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.top-navbar-items{
+    width: 98%;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* === TOP NAVBAR LEFT SECTION === */
+.sh-top-nav-left-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* === TOP NAVBAR LEFT CONTAINER === */
+.sh-top-nav-left-conatiner{
+    display: flex;
+    align-items: center;
+}
+/* === TOP LEFT NAVBAR RIGHT CONATAINER === */
+.sh-top-left-nav-right-container{
+    display: flex;
+    align-items: center;
+}
+/* === WINDOW ICON COANTAINER === */
+.sh-window-icon-container{
+    display: flex;
+}
+/* === SEARCH BOX === */
+.sh-search-box{
+    display: flex;
+    position: relative;
+}
+.sh-search-box input{
+    width: 500px;
+    padding: 11px 35px;
+    font-size: 16px;
+    border: 1px solid #dcdfe3;
+}
+/* === SCANER ICON === */
+.sh-scaner-icon{
+    margin-left: 5px;
+    display: flex;
+    position: absolute;
+}
+/* === PRODUCT === */
+.sh-product a{
+    padding: 12px;
+    color: gray;
+    background-color: white;
+    border: 1px solid #dcdfe3;
+}
+/* === SH SCAN === */
+.sh-scan a{
+    padding: 12px;
+    color: white;
+    background-color: #2B51B0;
+    border: 1px solid #dcdfe3;
+}
+/* === ALL CATEGORY === */
+.sh-all-category a{
+    color: gray;
+}
+.sh-all-category{
+    padding: 11px;
+    width: 150px;
+    margin-left: 30px;
+    margin-right: 40px;
+    color: gray;
+    background-color: white;
+    border: 1px solid #dcdfe3;
+}
+/* === SPLIT ICON === */
+.sh-split-icon{
+    padding: 6px;
+    background-color: white;
+    border: 1px solid #dcdfe3;
+}
+/* === WINDOW ICON === */
+.sh-window-icon{
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #dcdfe3;
+}
+.sh-top-nabbar-right-container{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+/* === TOP NAVBAR RIGHT SECITON === */
+.sh-top-nav-right-seciton{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* === SEARCH CUSTOMER BOX === */
+.sh-search-customer-box{
+    display: flex;
+    position: relative;
+}
+.sh-search-customer-box input{
+    font-size: 16px;
+    padding: 10px 35px;
+    width: 450px;
+    border: 1px solid #dcdfe3;
+}
+/* === PERSON ICON === */
+.sh-person-icon{
+    display: flex;
+    position: absolute;
+    margin-left: 8px;
+}
+/* === PLUS ICON === */
+.sh-plus-icon{
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: -20px;
+    color: gray;
+    display: flex;
+    position: relative;
+}
+/* === === MORE VERT ICON === */
+.sh-more-vert-icon{
+    width: 40px;
+    padding: 5px;
+    margin-left: 30px;
+    background-color: white;
+    border: 1px solid #dcdfe3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* === RESPONSIVE FOR MOBILE === */
+@media(max-width: 768px){
+    .top-navbar-items{
+        display: flex;
+        flex-direction: column;
+    }
+    .sh-top-nav-left-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .sh-top-left-nav-right-container{
+        margin-top: 20px;
+    }
+    .sh-search-box input{
+        width: 290px;
+    }
+    .sh-all-category{
+        width: 348px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .sh-search-customer-box input{
+        width: 356px;
+    }
+}
+
+
+/* === PRODUCT SECTIONS === */
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+/* === PRODUCT CONTAINER ===  */
+.product-container{
+    width: 98%;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+.image-section{
+    display: grid;
+    grid-template-columns: 165px 165px 165px 165px 165px;
+    column-gap: 25px;
+    row-gap: 25px;
+}
+.sh-image img{
+    max-width: 100%;
+}
+.sh-product-name p{
+    font-size: 14px;
+    height: 40px;
+    margin-top: -3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+/* === PRODUCT DETAILS SECTIONS === */
+/* .product-details-section{
+
+} */
+/* === NAME BOX SECTION === */
+.sh-name-box-section{
+    display: flex; 
+    align-items: center;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #dcdfe3;
+    padding-left: 8px;
+}
+/* === PRODUCT TEXT === */
+.sh-product-text p{
+    font-size: 16px;
+    width: 300px;
+    color: #2B51B0;
+}
+/* === QTY === */
+.sh-qty p{
+    font-size: 16px;
+    width: 100px;
+    color: #2B51B0;
+}
+/* === PRICE === */
+.sh-price p{
+    font-size: 16px;
+    width: 100px;
+    color: #2B51B0;
+}
+/* === EMPTY IMG === */
+.sh-product-collect-box{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #dcdfe3;
+
+    /* === IMAGE === */
+}
+.empty-image img{
+    height: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+/* === SUB TOTAL BOX === */
+.sh-subtotal-box{
+    padding: 20px 60px 20px 08px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: 1px solid #dcdfe3;
+}
+/* === ADD BOX = */
+.add-section{
+    background-color: white;
+    border: 1px solid #dcdfe3;
+    display: flex;
+    gap: 20px;
+    padding: 20px 60px 20px 08px;
+}
+.add-discount a{
+    font-size: 16px;
+    color: #2B51B0;
+    background-color: white;
+    border: 1px solid #dcdfe3;
+    padding: 10px;
+}
+/* === PAY NOW BOX === */
+.pay-now-box{
+    padding: 20px 60px 20px 08px;
+    color: white;
+    display: flex;
+    background-color: #2B51B0;
+    justify-content: space-between;
+
+}
+/* === RESPONSIVE FOR MOBILE === */
+@media(max-width: 768px){
+    .product-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .image-section{
+        display: grid;
+        grid-template-columns:196px 196px;
+        column-gap: 25px;
+        row-gap: 25px;
+    }
+    .sh-product-text p{
+        font-size: 16px;
+        width: 200px;
+        color: #2B51B0;
+    }
+    .sh-product-collect-box{
+        height: 40vh;
+    }
+}
